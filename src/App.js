@@ -8,11 +8,7 @@ import Footer from './component/Footer';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Slidingbar/><br/><br/>
-      <h4 >HAND PICKED FOR YOU</h4><br/>
-      <Card/>
-      <Footer/>
+      
   
     </div>
   );

@@ -14,10 +14,11 @@ import liptint from "../assets/images/lip tint.webp"
 import primer from "../assets/images/primer.jpg"
 import settingspray from "../assets/images/setting spray.jpg"
 import toner from "../assets/images/toner.jpg"
+import courosel from "../assets/images/courosel1.webp"
 
 
 const Img = {
-    logo,img1,img2,img3,serum,eyeshadow,foundation,highlighter,lipstick,mascara,blush,eyebrow,liptint,primer,settingspray,toner
+    logo,img1,img2,img3,serum,eyeshadow,courosel,foundation,highlighter,lipstick,mascara,blush,eyebrow,liptint,primer,settingspray,toner
 }
 
 export default Img

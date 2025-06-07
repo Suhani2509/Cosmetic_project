@@ -1,6 +1,24 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import axios from 'axios'
 
 const Loginform = () => {
+
+    const [userdata,setuserdata] = useState([])
+
+    useEffect(()=>{
+        axios.get("http://localhost:8888/userlogin").then((res)=>{
+            setuserdata(res.data)
+            console.log(res.data)
+        }).catch((err)=>{
+             console.log("Error handle",err)
+        })
+        
+      
+
+    },[])
+
+
+
     return (
         <div>
             <form >

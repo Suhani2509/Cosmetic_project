@@ -1,0 +1,21 @@
+.price-container{
+    display: flex;
+    text-align: left;
+    gap: 10px;
+}
+.desc-container{
+    font-size: 13px;
+    text-align: left;
+}
+
+.price-cont{
+    font-size: 17px;
+    text-decoration: line-through;
+}
+
+.cardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: auto;
+}

@@ -20,29 +20,29 @@ const Slidingbar = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img 
-                            src={Img.img2} 
+                            src={Img.courosel} 
                             className="d-block w-100" 
                             alt="img1" 
-                            style={{ height: "500px", objectFit: "cover", opacity: "0.7" }} 
+                            style={{ height: "500px", objectFit: "cover"}} 
                         />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5 style={{ textShadow: "1px 1px 3px black" }}>Beauty Blossom Mascara</h5>
-                            <h2 style={{ color: "lightblue", textShadow: "1px 1px 5px black" }}>
-                                Monsoon sale!!! 50% off on Mascara
+                            <h5 style={{ textShadow: "1px 1px 3px white", color:"#3E1C2C", fontWeight:"bold" }}>Beauty Blossom Lipsticks</h5>
+                            <h2 style={{ color: "#222222", textShadow: "1px 1px 4px rgba(255, 255, 255, 0.5)" }}>
+                                Monsoon sale!!! 50% off on lipstick and tints
                             </h2>
                         </div>
                     </div>
 
                     <div className="carousel-item">
                         <img 
-                            src={Img.courosel} 
+                            src={Img.courosel2} 
                             className="d-block w-100" 
                             alt="img2" 
                             style={{ height: "500px", objectFit: "cover" }} 
                         />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5 style={{ textShadow: "1px 1px 3px black" }}>Buy any Product</h5>
-                            <h2 style={{ color: "plum", textShadow: "1px 1px 4px black" }}>
+                            <h5 style={{ textShadow: "1px 1px 3px white" ,color:"	#D72638", fontWeight:"bold"}}>Buy any Product</h5>
+                            <h2 style={{ color: "#1B1F3B", textShadow: "1px 1px 4px white" }}>
                                 Starts from just 399/-
                             </h2>
                         </div>
@@ -50,15 +50,15 @@ const Slidingbar = () => {
 
                     <div className="carousel-item">
                         <img 
-                            src={Img.img3} 
+                            src={Img.sunscreen} 
                             className="d-block w-100" 
                             alt="img3" 
                             style={{ height: "500px", objectFit: "cover" }} 
                         />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5 style={{ textShadow: "1px 1px 3px black" }}>Beauty Blossom Special offer!!!</h5>
-                            <h2 style={{ color: "beige", textShadow: "1px 1px 4px black" }}>
-                                Buy 1 cream and get 1 compact free!!
+                            <h5 style={{ color: "#2C2C2C", fontWeight: "600",fontSize: "22px",textShadow: "1px 1px 2px rgba(255, 255, 255, 0.4)"}}>Beauty Blossom Special offer!!!</h5>
+                            <h2 style={{ color: "#1E1E1E", textShadow: "1px 1px 3px rgba(255,255,255,0.6)" }}>
+                                Buy 1 get 1 Sunscreen free!!
                             </h2>
                         </div>
                     </div>

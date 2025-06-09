@@ -1,5 +1,7 @@
 import React from 'react';
 import Img from '../shared/commondata';
+import Products from './Products';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -36,7 +38,7 @@ const Navbar = () => {
                             <a className="nav-link" href="#">About</a>
                         </li>
                         <li className="nav-item mx-2">
-                            <a className="nav-link" href="#">Products</a>
+                        <Link to="product"><p style={{color:"black", textDecoration:"none"}}>Products</p></Link>
                         </li>
                         <li className="nav-item mx-2">
                             <a className="nav-link" href="#">Contact Us</a>

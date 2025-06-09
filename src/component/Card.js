@@ -4,53 +4,15 @@ import "./Card.css"
 
 const Card = () => {
     return (
+           
 
-        <div class="cardcontainer" style={{marginLeft:"100px"}}>
+        <div style={{marginTop:"50px"}}>
+
+          <center><h2 style={{wordSpacing:"10px",letterSpacing:"10px", fontWeight:"400"}}>SALE IS LIVE</h2></center>
+        <div class="cardcontainer" style={{marginLeft:"100px", marginTop:"50px"}}>
         {/* // <div className="d-flex overflow-auto gap-5" style={{marginLeft:"100px"}}> */}
-            
-{/* Card 1 - Face serum*/}
-           <div style={{width:"15rem"}}>
-  <img src={Img.serum} class="card-img-top" alt="serum" height="250px"/>
-  <div>
-    <p class="desc-container">Lightweight hydrating serum with hyaluronic acid and vitamin C to pump skin | 30ml</p>
-    <div class="price-container">
-        <h5>₹499</h5>
-        <p class="price-cont">₹699</p>
-        <h5 style={{color:"green"}}>30% off</h5>
-
-    </div>
-  </div>
-</div>
-
-{/* Card 2 - blush*/}
-<div style={{width:"15rem"}}>
-  <img src={Img.blush} class="card-img-top" alt="serum" height="250px"/>
-  <div>
-    <p class="desc-container">Soft matte powder blush with a silky texture that blends easily for a natural glow | 5g</p>
-    <div class="price-container">
-        <h5>₹549</h5>
-        <p class="price-cont">₹650</p>
-        <h5 style={{color:"green"}}>15% off</h5>
-
-    </div>
-  </div>
-</div>
-
-{/* Card 3 - foundation*/}
-<div style={{width:"15rem"}}>
-  <img src={Img.foundation} class="card-img-top" alt="serum" height="250px"/>
-  <div>
-    <p class="desc-container">Full coverage foundation with SPF 30, smooth texture, and skin-blurring natural finish | 30ml</p>
-    <div class="price-container">
-        <h5>₹499</h5>
-        <p class="price-cont">₹699</p>
-        <h5 style={{color:"green"}}>30% off</h5>
-
-    </div>
-  </div>
-</div>
-
-{/* Card 4 - highlighter*/}
+        
+           
 <div style={{width:"15rem"}}>
   <img src={Img.highlighter} class="card-img-top" alt="serum" height="250px"/>
   <div>
@@ -106,7 +68,7 @@ const Card = () => {
 
 {/* Card 8 - eyebrow pencil */}
 <div style={{ width: "15rem" }}>
-  <img src={Img.mascara} className="card-img-top" alt="product6" height="250px" />
+  <img src={Img.eyebrow} className="card-img-top" alt="product6" height="250px" />
   <div>
     <p className="desc-container">Precision brow pencil with a fine tip for shaping and filling brows naturally | 0.25g</p>
     <div className="price-container">
@@ -156,23 +118,12 @@ const Card = () => {
   </div>
 </div>
 
-{/* Card 6 - setting spray */}
-<div style={{ width: "15rem" }}>
-  <img src={Img.settingspray} className="card-img-top" alt="product6" height="250px" />
-  <div>
-    <p className="desc-container">Weightless setting spray that locks makeup in place with a natural matte finish | 100ml</p>
-    <div className="price-container">
-      <h5>₹499</h5>
-      <p className="price-cont">₹699</p>
-      <h5 style={{ color: "green" }}>20% off</h5>
-    </div>
+
+
+
   </div>
-</div>
+    </div>
 
-</div>
-
-
-        // </div>
     )
 }
 

@@ -9,7 +9,7 @@ const Home = () => {
             <Navbar/>
             <Slidingbar/>
             <Card/>
-            {/* <Footer/> */}
+            <Footer/>
 
         </div>
     )

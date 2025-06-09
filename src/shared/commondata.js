@@ -17,9 +17,11 @@ import toner from "../assets/images/toner.jpg"
 import courosel from "../assets/images/courosel1.webp"
 import courosel2 from "../assets/images/courosel2.webp"
 import sunscreen from "../assets/images/sunscreen.webp"
+import aboutpic1 from "../assets/images/about1.avif"
+import aboutpic2 from "../assets/images/about2.avif"
 
 const Img = {
-    logo,img1,img2,img3,serum,eyeshadow,courosel,foundation,highlighter,lipstick,mascara,blush,eyebrow,liptint,primer,settingspray,toner,courosel2,sunscreen
+    logo,img1,img2,img3,serum,eyeshadow,aboutpic1,aboutpic2,courosel,foundation,highlighter,lipstick,mascara,blush,eyebrow,liptint,primer,settingspray,toner,courosel2,sunscreen
 }
 
 export default Img

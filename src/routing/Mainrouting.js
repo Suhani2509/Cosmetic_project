@@ -5,18 +5,25 @@ import Footer from "../component/Footer";
 import Navbar from "../component/Navbar";
 import Card from "../component/Card";
 import Home from "../component/Home";
-import Products from "../component/Products";
 import About from "../component/About";
+import Lipstick from "../Product/Lipstick";
+import Blush from "../component/Blush";
+import Eyeshadow from "../component/Eyeshadow";
+import Foundation from "../component/Foundation";
+
 
 const Rounting = createBrowserRouter([
        {path:"/" , element:<Loginform/>},
        {path:"home", element:<Home/>},
-       // {path:"nav",element:<Navbar/>},
-       // {path:"sliding",element:<Slidingbar/>},
-       // {path:"card",element:<Card/>},
-       // {path:"footer",element:<Footer/>},
-       // {path:"product",element:<Products/>}
-       {path:"about",element:<About/>}
+       {path:"about",element:<About/>},
+
+//      Product Component
+{path:"lipstick",element:<Lipstick/>},
+{path:"blush",element:<Blush/>},
+{path:"foundation",element:<Foundation/>},
+{path:"eyeshadow",element:<Eyeshadow/>}
+
+       
        
 ])
 

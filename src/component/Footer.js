@@ -3,7 +3,7 @@ import "./Footer.css"
 
 const Footer = () => {
     return (
-            <div style={{backgroundColor:"#f5f0e6", margin:"50px 0"}}>
+            <div style={{backgroundColor:"#f5f0e6", margin:"50px 0 0 0"}}>
                 {/* <h1 style={{color:"#3e3e3e"}}>This is footer</h1> */}
                 <div style={{display:"flex", gap:"5rem", padding:"20px"}}>
 

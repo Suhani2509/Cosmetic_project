@@ -32,6 +32,7 @@ const Loginform = () => {
 
       if(currentuser){
         alert("Welcome to our cosmetic store 😊")
+        sessionStorage.setItem("islogin","true")
         navigate("/home")
 
       }else{

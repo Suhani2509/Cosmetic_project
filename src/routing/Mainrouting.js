@@ -7,9 +7,9 @@ import Card from "../component/Card";
 import Home from "../component/Home";
 import About from "../component/About";
 import Lipstick from "../Product/Lipstick";
-import Blush from "../component/Blush";
-import Eyeshadow from "../component/Eyeshadow";
-import Foundation from "../component/Foundation";
+import Blush from "../Product/Blush";
+import Eyeshadow from "../Product/Eyeshadow";
+import Foundation from "../Product/Foundation";
 
 
 const Rounting = createBrowserRouter([

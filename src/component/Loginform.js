@@ -15,7 +15,7 @@ const Loginform = () => {
             setuserdata(res.data)
             console.log(res.data)
         }).catch((err)=>{
-             console.log("Error handle",err)
+             console.log("Error handle = ",err)
         })
     },[])
 
@@ -28,7 +28,7 @@ const Loginform = () => {
       // console.log("User email : ",useremail)
       // console.log("Password : ",userpass)
 
-      const currentuser = userdata.find((val)=> val.email === useremail && val.password === userpass)
+  const currentuser = userdata.find((val)=>val.email === useremail && val.password === userpass)
 
       if(currentuser){
         alert("Welcome to our cosmetic store 😊")
@@ -39,8 +39,6 @@ const Loginform = () => {
       }
 
     }
-
-
 
     return (
         <div>

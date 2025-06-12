@@ -37,26 +37,32 @@
         },
         {
             "id":4,
-            "name":"Kay Beauty Hydra Creme Lipstick",
-            "imgpath":"/assets/images/kayhydralipstick.avif",
-            "Price":"236"
+            "name":"Maybelline Superstay Matte Ink",
+            "imgdescription" : "Bold pigment and long wear.",
+            "imgpath":"/assets/images/maybelline.avif",
+            "Price":"359"
         },
         {
             "id":5,
             "name":"Kay Beauty Hydra Creme Lipstick",
             "imgpath":"/assets/images/kayhydralipstick.avif",
             "Price":"236"
-        },{
+        },
+        {
             "id":6,
-            "name":"Kay Beauty Hydra Creme Lipstick",
-            "imgpath":"/assets/images/kayhydralipstick.avif",
-            "Price":"236"
-        },{
+            "name":"Nykaa creme matte lipstick",
+            "imgpath":"/assets/images/nykalipstick.avif",
+            "imgdescription" : "Nykaa Cosmetics So Creme!!",
+            "Price":"214"
+        },
+        {
             "id":7,
-            "name":"Kay Beauty Hydra Creme Lipstick",
-            "imgpath":"/assets/images/kayhydralipstick.avif",
-            "Price":"236"
-        },{
+            "name":"Mars Matte Lipstick Box",
+            "imgpath":"/assets/images/mars.avif",
+            "imgdescription":"3 varied shades of Matte Lipstick.",
+            "Price":"389"
+        },
+        {
             "id":8,
             "name":"Kay Beauty Hydra Creme Lipstick",
             "imgpath":"/assets/images/kayhydralipstick.avif",

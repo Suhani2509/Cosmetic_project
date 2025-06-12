@@ -1,8 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Img from '../shared/commondata';
 
 const Navbar = () => {
+
+    const navigate = useNavigate()
+
+    const Handlesignout=()=>{
+       sessionStorage.clear()
+       navigate("/")
+
+    }
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light px-4">
             <Link className="navbar-brand" to="/">
@@ -32,7 +40,7 @@ const Navbar = () => {
                             <Link className="nav-link" to="/home" style={{fontSize:"20px", fontWeight:"600"}} >Home</Link>
                         </li>
                         <li className="nav-item mx-2">
-                            <Link className="nav-link" to="/about" style={{fontSize:"20px", fontWeight:"600"}}>About</Link>
+                            <Link className="nav-link" to="/about" style={{fontSize:"20`px", fontWeight:"600"}}>About</Link>
                         </li>
 
                         {/* Dropdown menu */}
@@ -62,6 +70,11 @@ const Navbar = () => {
                                 </li>
                             </ul>
                         </li>
+
+                        <li className="nav-item mx-2">
+                            <Link className="nav-link" to="/contact" style={{fontSize:"20px", fontWeight:"600"}}>Contact us</Link>
+                        </li>
+
                     </ul>
 
                     {/* Search bar aligned to right */}
@@ -77,7 +90,7 @@ const Navbar = () => {
 
             </div>
 
-            <button className='btn' style={{backgroundColor:"rgb(209 0 118)", color:"white"}}>Sign in</button>
+            <button className='btn' style={{backgroundColor:"rgb(209 0 118)", color:"white"}} onClick={()=>Handlesignout()}>Sign out</button>
         </nav>
     );
 };

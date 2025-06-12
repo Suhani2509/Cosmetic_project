@@ -66,11 +66,12 @@ import rhodaeyeshadow from "../assets/images/rhodaeyeshadow.webp"
 import maybellineeyeshadow from "../assets/images/maybellineeyeshadow.webp"
 import blueheaveneyeshadow from "../assets/images/blueheaveneyeshadow.webp"
 import eyeshadowbg2 from "../assets/images/eyeshadowbg2.avif"
+import contactbg from "../assets/images/contactbg.webp"
 
 
 const Img = {
     logo,img1,img2,img3,serum,eyeshadow,aboutpic1,aboutpic2,courosel,foundation,highlighter,lipstick,mascara,blush,eyebrow,liptint,primer,settingspray,toner,courosel2,sunscreen,lipstickbg,lipstickbanner,charlotte,kaybeauty,lakmeforever,maybelline,nykalipstick,mac,mars,swiss,nybae,maybellinestay,sugar,blueheaven,swissbeauty,renee,insight,swiss3,blushbg,nybaeblush,maybellineblush,lakmeblush,marsblush,blushbg2,nybaesunset,insightblush,swissblush,maybellinefitme,foundationbg,kayfoundation,maybellinefoundation,lakmefoundation,charlottefoundation,
-    esteelauder,hudabeauty,nykaafoundation,smashboxfoundation,Eyeshadowbg,marseyeshadow,swisseyeshadow,hilaryeyeshadow,marsdanceeyeshadow,swissbeautyultimate,rhodaeyeshadow,maybellineeyeshadow,blueheaveneyeshadow,eyeshadowbg2
+    esteelauder,hudabeauty,nykaafoundation,smashboxfoundation,Eyeshadowbg,marseyeshadow,swisseyeshadow,hilaryeyeshadow,marsdanceeyeshadow,swissbeautyultimate,rhodaeyeshadow,maybellineeyeshadow,blueheaveneyeshadow,eyeshadowbg2,contactbg
 }
 
 export default Img
